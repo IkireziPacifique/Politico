@@ -1,0 +1,113 @@
+.form-login{
+    display: flex;
+}
+
+.formsignup{
+    display: flex;
+}
+
+/* Left side */
+.form-left{
+    width: 50%;
+    height: 22.5em;
+    background-image: url(/src/img/bg-front.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 7em 5em;
+    text-align: center;
+}
+
+.logo-signIn{
+    width: 8em;
+    height: 5em;
+}
+
+.form-left h1{
+    font-size: 3.5em;
+    color: #158698;
+}
+
+.formbtn button{
+    padding: 1em 3em;
+    margin: 2em 3em;
+}
+
+.formbtn button a{
+    text-decoration: none;
+    color: white;
+}
+
+.formbtn .loginbtn{
+    /* border: none; */
+    border: .1em solid #1DCFEB;
+    color: white;
+    background-color: #1DCFEB;
+}
+
+.formbtn .signinbtn{
+    border: .1em solid #1DCFEB;
+    color: #1DCFEB;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.formbtn .signinbtn a{
+    color: grey;
+}
+
+.formbtn .signinbtn a:hover{
+    color: white;
+}
+
+.formbtn .signinbtn:hover{
+    /* border: none; */
+    border: .1em solid #1DCFEB;
+    color: white;
+    background-color: #1DCFEB;
+}
+
+
+/* Form right side */
+.form{
+    width: 50%;
+    /* height: auto; */
+}
+
+form{
+    /* width: 50%; */
+    height: auto;
+    margin: 5em 1em 1em 1em;
+    text-align: center;
+    padding: 1.5em;
+    box-shadow: 0 1px 1rem rgba(0,0,0,.3);
+}
+
+h2{
+    color: #00444F;
+}
+
+form input{
+    width: 90%;
+    padding: 1em;
+    color: #9A9A9A;
+    background-color: #F2F2F2;
+    border: none;
+}
+
+form p{
+    text-align: end;
+    margin-right: 1em;
+    color: #9A9A9A;
+}
+
+form button{
+    width: 93%;
+    padding: .5em;
+    font-size: 1.2em;
+    color: white;
+    background-color: #1DCFEB;
+    border: none;
+}
+
+form button:hover{
+    background-color: #19c7e2;
+}
